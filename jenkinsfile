@@ -1,0 +1,6 @@
+@Library('mvn')
+node() {
+	stage('build') {
+		mvn()	
+	}
+}
